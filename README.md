@@ -1,5 +1,5 @@
 # DigitalClock
-
+<img width="150px" height="250px" src=""/>
 # Digital Clock Javascript Vanilla
 
 # Source
