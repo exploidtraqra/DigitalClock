@@ -1,0 +1,60 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no"/>
+<title>myproject</title>
+<style>
+	html,body{
+		margin:0;
+		padding:0;
+		background:black;
+		user-select:none;
+		height:100vh;
+		background-image:url('./ex.png');
+	}
+	.wrapper{
+		display:flex;
+	    align-items:center;
+	     justify-content:center;
+	     align-content:center;
+	}
+	@font-face{
+		font-family:'c';
+		src:url("./DS-DIGI.TTF");
+	}
+	h1{
+		font-family:'c';
+		font-weigth:bold;
+		color:white;
+		font-size:100px;
+	}
+	.clock{
+		margin-top:40vh;
+	    border: 2px solid white;
+	    background:black;
+	    width:260px;
+	    -webkit-text-stroke: 1px black;
+    }
+</style>
+</head>
+<!--
+ Ryugen-XD
+ digital clock JavaScript vanilla
+date.getHours()+":"+date.getMinutes()+":"+date.getSeconds();
+-->
+<body>
+<div class="wrapper">
+	<h1 class="clock">Not : Js</h1>
+</div>
+<script>
+	(()=>{
+		
+		setInterval(()=>{
+			const d = new Date();
+			document.querySelector(".clock").innerHTML=`
+			${d.getHours()}:${d.getMinutes()}:${d.getSeconds()}
+            `;
+        },30);
+	})();
+</script>
+</body>
+</html>
