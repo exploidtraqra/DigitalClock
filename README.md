@@ -1,4 +1,5 @@
 # DigitalClock
+_script css_ :<br>
 <img width="150px" height="250px" src="https://github.com/exploidtraqra/DigitalClock/raw/main/screenshot/Screenshot_2022-07-06-17-01-54-249_com.rhmsoft.edit.pro.jpg"/>
 
 _Digital Clock Javascript Vanilla_
