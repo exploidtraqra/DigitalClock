@@ -4,7 +4,7 @@ _script css_ :<br>
 
 _Digital Clock Javascript Vanilla_
 
-# Source
+# SourceCodeJs
 ```
 (()=>{
 setInterval(()=>{
